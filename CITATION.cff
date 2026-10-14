@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Se você usar este software, cite-o conforme abaixo."
+title: "CAPES-Lattes — Área 39 (Ciência Política e Relações Internacionais)"
+type: software
+authors:
+  - given-names: Claudiano
+    affiliation: "Universidade Federal do Recôncavo da Bahia (UFRB)"
+    email: cneto@ufrb.edu.br
+version: 0.1.0
+date-released: 2026-10-14
+license: MIT
+repository-code: "https://github.com/cruz-neto/capes-lattes-area39"
+url: "https://github.com/cruz-neto/capes-lattes-area39"
+abstract: >-
+  Extensão para Google Chrome que estima o estrato (A1–A8/B) e a pontuação dos
+  artigos em periódicos do Currículo Lattes segundo a Ficha de Avaliação
+  2025–2028 da Área 39 (Ciência Política e Relações Internacionais) da CAPES.
+keywords:
+  - CAPES
+  - Lattes
+  - Qualis
+  - avaliação da pós-graduação
+  - ciência política
+  - relações internacionais
