@@ -99,7 +99,7 @@ A arquitetura, a atualização da base e a adaptação para outras áreas da CAP
 
 ## Como citar
 
-> Claudiano. *CAPES-Lattes — Área 39 (Ciência Política e Relações Internacionais)*. Software, versão 0.1.0. Universidade Federal do Recôncavo da Bahia (UFRB), 2026. Disponível em: https://github.com/cruz-neto/capes-lattes-area39.
+> Cruz Neto, Claudiano C. *CAPES-Lattes — Área 39 (Ciência Política e Relações Internacionais)*. Software, versão 0.1.0. Universidade Federal do Recôncavo da Bahia (UFRB), 2026. Disponível em: https://github.com/cruz-neto/capes-lattes-area39.
 
 Os metadados de citação estão em [CITATION.cff](CITATION.cff). No GitHub, use o botão *Cite this repository*.
 
