@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "CAPES-Lattes Área 39 — Ciência Política e RI",
+  "version": "0.1.0",
+  "description": "Estima o estrato (A1–A8/B) dos artigos do Currículo Lattes segundo a Ficha de Avaliação 2025–2028 da Área 39 da CAPES.",
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "CAPES-Lattes Área 39"
+  },
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://buscatextual.cnpq.br/*",
+        "http://buscatextual.cnpq.br/*",
+        "https://lattes.cnpq.br/*",
+        "http://lattes.cnpq.br/*"
+      ],
+      "js": [
+        "data.js",
+        "rules.js",
+        "content.js"
+      ],
+      "css": [
+        "content.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "homepage_url": "https://github.com/cruz-neto/capes-lattes-area39"
+}

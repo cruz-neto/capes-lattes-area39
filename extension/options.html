@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Opções · CAPES-Lattes Área 39</title>
+<style>
+body{max-width:720px;margin:0 auto;padding:24px 16px;font:14px/1.5 system-ui,sans-serif;color:#1d2a38;background:#f6f8fb}
+h1{font:800 20px system-ui;color:#16324f;margin:0 0 4px}
+section{background:#fff;border:1px solid #dbe3ec;border-radius:11px;padding:14px 16px;margin-top:16px}
+h2{font:800 15px system-ui;margin:0 0 6px;color:#16324f}p{margin:0 0 8px;color:#4d6178;font-size:13px}
+textarea{width:100%;min-height:160px;box-sizing:border-box;font:12px ui-monospace,monospace;border:1px solid #b9c8d8;border-radius:8px;padding:8px}
+input{width:80px;padding:5px;border:1px solid #b9c8d8;border-radius:6px}
+button{margin-top:14px;border:0;border-radius:8px;padding:9px 16px;font:700 13px system-ui;background:#1f5f99;color:#fff;cursor:pointer}
+#ok{margin-left:10px;color:#24623b;font-weight:600}
+</style></head>
+<body>
+<h1>Opções</h1>
+<p>Base: <span id="fonte"></span></p>
+<section><h2>Período padrão</h2>
+<label>De <input id="ini" type="number" min="1990" max="2100"></label>
+<label>até <input id="fim" type="number" min="1990" max="2100"></label></section>
+<section><h2>Bônus Scopus (+50 pontos)</h2>
+<p>A Ficha 2025–2028 concede +50 pontos a periódicos no primeiro quintil (top 20%) da Scopus nas categorias
+Political Science and International Relations, Sociology and Political Science e Public Administration.
+Cole aqui os ISSNs desses periódicos (um por linha, ou separados por vírgula). O percentil de CiteScore está em scopus.com/sources.
+O quartil do SCImago (Q1 = top 25%) não equivale a esse critério.</p>
+<textarea id="bonus" placeholder="0003-0554&#10;0010-4140&#10;..."></textarea>
+<p id="count"></p></section>
+<button id="save">Salvar</button><span id="ok"></span>
+<script src="data.js"></script>
+<script src="rules.js"></script>
+<script src="options.js"></script>
+</body></html>
